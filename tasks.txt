@@ -1,0 +1,5 @@
+admin,Assign initial tasks,assign each team member with appropriate tasks,10/10/19,No
+manu,skibidi,toiletpoo,23/9/24,No
+charles,get milk,momma's milk,23/4/24,No
+mum,cooking,Cooking lunch,16/5/24,No
+ann,braid hair,go to salon and get hair done,3/4/24,No

@@ -1,0 +1,2 @@
+zoe,zoe@gmail.com,True
+sam,sam@gmail.com,True
