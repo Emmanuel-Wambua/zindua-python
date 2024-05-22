@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
-url = "https://www.jumia.co.ke/catalog/productratingsreviews/sku/NI534ST0DQQMYNAFAMZ/"
+url = "https://meet.google.com/xms-ksdw-ovt"
 def top_deals(url):
     response = requests.get(url)
     soup = BeautifulSoup(response.content, "html.parser")
