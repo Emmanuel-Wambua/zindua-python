@@ -1,4 +1,182 @@
-Software Engineer - Global/Remote,$10K - $50K,None
-Software Engineer - Global/Remote,Location,None
-Software Engineer - Global/Remote,Job Type,None
-Software Engineer - Global/Remote,Experience,None
+[
+    {
+        "Company": "Peakflo\u00a0(W22) ",
+        "Role": "Backend Engineer Internship (remote)",
+        "Type": "intern",
+        "Location": "Iran / Bangladesh / India / Pakistan / Sri Lanka / Philippines / Malaysia / Indonesia / Vietnam / Thailand / Remote (Iran; Bangladesh; India; Pakistan; Sri Lanka; Philippines; Malaysia; Indonesia; Vietnam; Thailand)"
+    },
+    {
+        "Company": "MixRank\u00a0(S11) ",
+        "Role": "Data Engineer - Global/Remote",
+        "Type": "fulltime",
+        "Location": "Backend"
+    },
+    {
+        "Company": "Anakin\u00a0(S21) ",
+        "Role": "Lead Software Engineer",
+        "Type": "fulltime",
+        "Location": "BR / EG / CO / CR / PE / RU / UY / AR / PH / HR / MX / TR / BO / PY / CL / EC / Remote (BR; EG; CO; CR; PE; RU; UY; AR; PH; HR; MX; TR; BO; PY; CL; EC)"
+    },
+    {
+        "Company": "Dripos\u00a0(S20) ",
+        "Role": "Software Engineer",
+        "Type": "fulltime",
+        "Location": "Data science"
+    },
+    {
+        "Company": "Fathom\u00a0(W21) ",
+        "Role": "Full-Stack Engineer (Remote)",
+        "Type": "fulltime",
+        "Location": "Bengaluru, KA, IN"
+    },
+    {
+        "Company": "Play\u00a0(W23) ",
+        "Role": "Sr. Product Engineer",
+        "Type": "fulltime",
+        "Location": "Backend"
+    },
+    {
+        "Company": "Paces\u00a0(S22) ",
+        "Role": "Software Engineer (Front-End / Map)",
+        "Type": "fulltime",
+        "Location": "New York, NY, US"
+    },
+    {
+        "Company": "Roboflow\u00a0(S20) ",
+        "Role": "Full Stack Machine Learning Engineer",
+        "Type": "fulltime",
+        "Location": "Full stack"
+    },
+    {
+        "Company": "Heron Data\u00a0(S20) ",
+        "Role": "Deployment Engineer",
+        "Type": "fulltime",
+        "Location": "CA / US / Remote (CA; US)"
+    },
+    {
+        "Company": "Linum\u00a0(W23) ",
+        "Role": "Founding AI Engineer",
+        "Type": "fulltime",
+        "Location": "Full stack"
+    },
+    {
+        "Company": "Flint\u00a0(S23) ",
+        "Role": "Software Engineer",
+        "Type": "fulltime",
+        "Location": "Palo Alto, CA, US"
+    },
+    {
+        "Company": "Tempo Labs\u00a0(S23) ",
+        "Role": "Frontend Engineer (React)",
+        "Type": "fulltime",
+        "Location": "Full stack"
+    },
+    {
+        "Company": "Luca\u00a0(W23) ",
+        "Role": "Software Engineer Intern",
+        "Type": "intern",
+        "Location": "NY, US"
+    },
+    {
+        "Company": "SafeBase\u00a0(S20) ",
+        "Role": "Senior Software Engineer - Full Stack",
+        "Type": "fulltime",
+        "Location": "Frontend"
+    },
+    {
+        "Company": "Mintlify\u00a0(W22) ",
+        "Role": "Senior Full Stack Engineer",
+        "Type": "fulltime",
+        "Location": "New York, NY, US / San Francisco, CA, US / Remote (US)"
+    },
+    {
+        "Company": "FlutterFlow\u00a0(W21) ",
+        "Role": "Software Engineer - Flutter (United States)",
+        "Type": "fulltime",
+        "Location": "Machine learning"
+    },
+    {
+        "Company": "Apriora\u00a0(W24) ",
+        "Role": "\ud83d\ude80 Founding Full Stack Software Engineer \ud83d\ude80",
+        "Type": "fulltime",
+        "Location": "New York, NY, US"
+    },
+    {
+        "Company": "Reframe (Glucobit)\u00a0(S21) ",
+        "Role": "Data Scientist",
+        "Type": "fulltime",
+        "Location": "Full stack"
+    },
+    {
+        "Company": "Rollstack\u00a0(W23) ",
+        "Role": "Senior Software Engineer - EU",
+        "Type": "fulltime",
+        "Location": "San Francisco, CA, US"
+    },
+    {
+        "Company": "Imbue (formerly Generally Intelligent)\u00a0(S17) ",
+        "Role": "Systems Engineer",
+        "Type": "fulltime",
+        "Location": "Machine learning"
+    },
+    {
+        "Company": "Spellbrush\u00a0(W18) ",
+        "Role": "LLM Engineer",
+        "Type": "fulltime",
+        "Location": "San Francisco, CA, US / Remote (US)"
+    },
+    {
+        "Company": "Serif Health\u00a0(W22) ",
+        "Role": "Data Engineer",
+        "Type": "fulltime",
+        "Location": "Full stack"
+    },
+    {
+        "Company": "Dex\u00a0(S19) ",
+        "Role": " Software Engineer Intern (Summer 2024) - Full-stack Product - San Francisco",
+        "Type": "intern",
+        "Location": "Remote"
+    },
+    {
+        "Company": "Clipboard Health\u00a0(W17) ",
+        "Role": "Full Stack Software Engineer",
+        "Type": "fulltime",
+        "Location": "Frontend"
+    },
+    {
+        "Company": "Topline Pro\u00a0(W21) ",
+        "Role": "Sr. Full Stack Software Engineer",
+        "Type": "fulltime",
+        "Location": "San Francisco, CA, US"
+    },
+    {
+        "Company": "Seam\u00a0(S20) ",
+        "Role": "Software Engineer (Onsite - SF)",
+        "Type": "fulltime",
+        "Location": "Full stack"
+    },
+    {
+        "Company": "Output Biosciences\u00a0(S21) ",
+        "Role": "Machine Learning Researcher",
+        "Type": "fulltime",
+        "Location": "US / CA / Remote (US; CA)"
+    },
+    {
+        "Company": "Berry\u00a0(W23) ",
+        "Role": "Founding Full Stack Engineer - LLM, Applied AI (no prior LLM experience required)",
+        "Type": "fulltime",
+        "Location": "Full stack"
+    },
+    {
+        "Company": "Devyce\u00a0(S22) ",
+        "Role": "Backend / Fullstack Developer",
+        "Type": "fulltime",
+        "Location": "San Francisco"
+    },
+    {
+        "Company": "Recurrency\u00a0(S20) ",
+        "Role": "Senior Software Engineer (Product)",
+        "Type": "fulltime",
+        "Location": "Full stack"
+    }
+]

@@ -4,3 +4,4 @@ Addition of 23.0 and 45.0 is 68.0
 Addition of 23.0 and 43.0 is 66.0 
 Subtraction of 78.0 and 90.0 is -12.0 
 Addition of 54.0 and 46.0 is 100.0 
+Multiplication of 10000.0 and 70000.0 is 700000000.0 

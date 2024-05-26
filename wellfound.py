@@ -1,45 +1,56 @@
-
+import time
+import schedule
 import requests
-
 from bs4 import BeautifulSoup
+import json
+url="https://www.workatastartup.com/"
+def get_jobs(url):
+    response=requests.get(url)
+    soup=BeautifulSoup(response.content,"html.parser")
+    company_name=soup.find_all("span",class_="font-bold")
+    role=soup.find_all("a",class_="font-bold captialize mr-5")
+    type=soup.find_all("span",class_="capitalize text-sm font-thin")
+    locations=soup.find_all("span",class_="before:inline-block before:content-[''] before:mx-3 before:my-auto before:text-xs before:px-1 before:w-2 before:h-2 before:rounded-md before:bg-gray-700 capitalize text-sm font-thin")
+    data=[]
+    for comp,rol,ty,loca in zip(company_name,role,type,locations):
+        info={"Company":comp.text,
+              "Role":rol.text,
+              "Type":ty.text,
+              "Location":loca.text}
+        data.append(info)
+    return data
+job=get_jobs(url)
+json_file='random.json'
+with open(json_file,mode="w",encoding="utf-8") as file:
+        json.dump(job,file,indent=4)
 
-url = "https://www.ycombinator.com/companies/mixrank/jobs/35HrJ61-software-engineer-global-remote"
+url="https://www.workatastartup.com/"
+def get_internship(url):
+    response=requests.get(url)
+    soup=BeautifulSoup(response.content,"html.parser")
+    company_name=soup.find_all("span",class_="font-bold")
+    role=soup.find_all("a",class_="font-bold captialize mr-5")
+    type=soup.find_all("span",class_="capitalize text-sm font-thin")
+    locations=soup.find_all("span",class_="before:inline-block before:content-[''] before:mx-3 before:my-auto before:text-xs before:px-1 before:w-2 before:h-2 before:rounded-md before:bg-gray-700 capitalize text-sm font-thin")
+    data=[]
+    difference=[]
+    for comp,rol,ty,loca in zip(company_name,role,type,locations):
+        info={"Company":comp.text,
+              "Role":rol.text,
+              "Type":ty.text,
+              "Location":loca.text}
+        data.append(info)
+    name=input("Enter:")
+    for inter in data:
+        if (inter["Type"]==name):
+            difference.append(inter)
+    return difference
+internship=get_internship(url)
+json_file='internship.json'
+with open(json_file,mode="w",encoding="utf-8") as file:
+        json.dump(internship,file,indent=4)
 
-def top_deals(url):
-    response = requests.get(url)
-
-    soup = BeautifulSoup(response.content, "html.parser")
-    
-    title = soup.find_all("h1",class_="ycdc-section-title")
-    salary = soup.find_all("strong")
-    locations = soup.find_all("span")
-    project_href = [i['href'] for i in soup.find_all('a',class_="ycdc-btn",href=True)]
-    link = "".join(project_href)
-    print(link)
-
-    for product in title:
-        print(product.text)
-    for salar,location in zip(salary,locations):
-        print(f"{salar.text} - {location.text}")
-
-top_deals(url)
-
-print("\n")
-
-new_url="https://www.ycombinator.com/companies/mixrank/jobs/SaoXMWj-data-engineer-global-remote"
-def data_science(new_url):
-    response = requests.get(new_url)
-    soup = BeautifulSoup(response.content, "html.parser")
-    title = soup.find_all("h1",class_="ycdc-section-title")
-    salary = soup.find_all("strong")
-    locations = soup.find_all("span")
-    project_href = [i['href'] for i in soup.find_all('a',class_="ycdc-btn",href=True)]
-    link = "".join(project_href)
-    for product in title:
-        print(product.text)
-    for salar,location in zip(salary,locations):
-        print(f"{salar.text} - {location.text}")
-        with open("random.json"mode="w") as file:
-            file.dump(f"{product.text},{salar.text},{location.csv}\n")
-
-data_science(url)
+schedule.every(10).minutes.do(get_jobs)
+while True:
+    schedule.run_pending()
+    time.sleep(1)
